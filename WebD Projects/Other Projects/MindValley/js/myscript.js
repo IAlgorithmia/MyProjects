@@ -146,7 +146,7 @@ function FinishTheTest() {
       anx_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?t=st=1694235635~exp=1694236235~hmac=04e9db5186f0fdd7c8a191747dffaa52cc177e0dd21c233a363af1f76d952800" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Anamika Goyal - <br>Anxiety Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button style = "background-color : black; color : purple;"> Book Appointment</button>
 </div>
 </div>
 `
@@ -164,7 +164,7 @@ function FinishTheTest() {
       dep_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://photos.peopleimages.com/picture/202302/2659182-medical-smile-and-happy-with-portrait-of-doctor-for-for-healthcare-expert-and-professional.-medicine-wellness-and-surgeon-with-black-woman-and-arms-crossed-for-proud-confidence-or-life-insurance--fit_400_400.jpg" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Ambika Jain - <br>Depression Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button style = "background-color : black; color : purple;"> Book Appointment</button>
 </div>
 </div>
 `
@@ -181,7 +181,7 @@ function FinishTheTest() {
       ocd_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://img.freepik.com/premium-photo/portrait-cheerful-smiling-young-doctor-with-stethoscope-neck-medical-coat_255757-1414.jpg" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Rahul Subhramanyam - <br>OCD Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -200,7 +200,7 @@ function FinishTheTest() {
       anx_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?t=st=1694235635~exp=1694236235~hmac=04e9db5186f0fdd7c8a191747dffaa52cc177e0dd21c233a363af1f76d952800" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Anamika Goyal - <br>Anxiety Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -218,7 +218,7 @@ function FinishTheTest() {
       dep_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://photos.peopleimages.com/picture/202302/2659182-medical-smile-and-happy-with-portrait-of-doctor-for-for-healthcare-expert-and-professional.-medicine-wellness-and-surgeon-with-black-woman-and-arms-crossed-for-proud-confidence-or-life-insurance--fit_400_400.jpg" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Ambika Jain - <br>Depression Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -239,7 +239,7 @@ function FinishTheTest() {
       dep_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://photos.peopleimages.com/picture/202302/2659182-medical-smile-and-happy-with-portrait-of-doctor-for-for-healthcare-expert-and-professional.-medicine-wellness-and-surgeon-with-black-woman-and-arms-crossed-for-proud-confidence-or-life-insurance--fit_400_400.jpg" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Ambika Jain - <br>Depression Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -256,7 +256,7 @@ function FinishTheTest() {
       ocd_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://img.freepik.com/premium-photo/portrait-cheerful-smiling-young-doctor-with-stethoscope-neck-medical-coat_255757-1414.jpg" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Rahul Subhramanyam - <br>OCD Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -276,7 +276,7 @@ function FinishTheTest() {
       anx_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?t=st=1694235635~exp=1694236235~hmac=04e9db5186f0fdd7c8a191747dffaa52cc177e0dd21c233a363af1f76d952800" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Anamika Goyal - <br>Anxiety Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -293,7 +293,7 @@ function FinishTheTest() {
       ocd_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://img.freepik.com/premium-photo/portrait-cheerful-smiling-young-doctor-with-stethoscope-neck-medical-coat_255757-1414.jpg" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Rahul Subhramanyam - <br>OCD Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -313,7 +313,7 @@ function FinishTheTest() {
       ocd_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://img.freepik.com/premium-photo/portrait-cheerful-smiling-young-doctor-with-stethoscope-neck-medical-coat_255757-1414.jpg" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Rahul Subhramanyam - <br>OCD Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -334,7 +334,7 @@ function FinishTheTest() {
       dep_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://photos.peopleimages.com/picture/202302/2659182-medical-smile-and-happy-with-portrait-of-doctor-for-for-healthcare-expert-and-professional.-medicine-wellness-and-surgeon-with-black-woman-and-arms-crossed-for-proud-confidence-or-life-insurance--fit_400_400.jpg" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Ambika Jain - <br>Depression Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -355,7 +355,7 @@ function FinishTheTest() {
       anx_add_expert.innerHTML = `<div style = "margin-top : 5rem; margin-left : 25rem; overflow : visible"><div class="expertcontainer" style = "display : flex; flex-direction : column; background-color : black; border-radius : 15% 15% 0% 0%; width : 75%; margin-left : 10rem;">
   <img src = "https://img.freepik.com/free-photo/woman-doctor-wearing-lab-coat-with-stethoscope-isolated_1303-29791.jpg?t=st=1694235635~exp=1694236235~hmac=04e9db5186f0fdd7c8a191747dffaa52cc177e0dd21c233a363af1f76d952800" style="width : 300px; height : 200px; border-radius : 0px 0px 50px 0px;">
   <h3 style = "color : purple; font-weight : bold; position : relative; left : 33rem; bottom : 10rem; font-size : 4rem;">Dr. Anamika Goyal - <br>Anxiety Specialist.<br> UMatter and WHO verified</h3>
-  <button style = "color : black;"> Book Appointment</button>
+  <button class = "ChangeMeButton" style = "background-color : #8f8f8f58; border : 4px solid black; color : purple;" onClick = "justChangeMe()"> Book Appointment</button>
 </div>
 </div>
 `
@@ -369,3 +369,9 @@ function FinishTheTest() {
 const anxiety_questions = [{ id: 1, "question": "How often do you find yourself feeling excessively worried, nervous, or fearful about various aspects of your life, such as work, relationships, health, or the future?", "value": 0 }, { "id": 2, "question": "Are these worries or fears interfering with your ability to function in your daily activities, such as work, social interactions, or personal responsibilities?", "value": 0 }, { "id": 3, "question": "Do you avoid specific situations, places, or activities due to intense fear or anxiety about potential negative outcomes or embarrassment?", "value": 0 }, { "id": 4, "question": "Are you experiencing physical symptoms such as rapid heartbeat, shortness of breath, sweating, trembling, or a sense of restlessness or feeling on edge, especially in situations that provoke worry or fear?", "value": 0 }, { "id": 5, "question": "Have you been feeling persistently sad, empty, or hopeless for most of the day, nearly every day, for at least two weeks or more?", "value": 0 }, { "id": 6, "question": "Have you lost interest or pleasure in activities that you once enjoyed, such as hobbies, socializing, or work?", "value": 0 }, { "id": 7, "question": "Have you experienced significant changes in your sleep patterns, such as insomnia (difficulty falling or staying asleep) or hypersomnia (excessive sleeping), nearly every day?", "value": 0 }, { "id": 8, "question": "Have you noticed significant changes in your appetite or weight, such as a significant increase or decrease, unrelated to dieting or intentional changes", "value": 0 }, { "id": 9, "question": "Do you have intrusive, unwanted thoughts, images, or urges that cause anxiety or distress?", "value": 0 }, { "id": 10, "question": "Do you engage in repetitive behaviors or mental acts to reduce anxiety or prevent a feared event or situation?", "value": 0 }, { "id": 11, "question": "Are these obsessions and compulsions time-consuming and significantly interfere with your daily activities or relationships?", "value": 0 }, { "id": 12, "question": "Do you find it difficult to control or stop the obsessions and compulsions, even if you recognize they are excessive or unreasonable?", "value": 0 }]
 
 
+const justChangeMe = () =>{
+  const array = document.getElementsByClassName("ChangeMeButton");
+  for (i of array){
+    i.innerHTML = "Booking Successful!"
+  }
+}
